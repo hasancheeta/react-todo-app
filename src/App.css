@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 .App {
   text-align: center;
+  font-family: "Raleway", sans-serif;
 }
 
 .App-logo {
@@ -14,12 +17,12 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #13a183;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -35,4 +38,94 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.todo-input {
+  font-family: "Raleway", sans-serif;
+  width: 83%;
+  height: 45px;
+  border: 0;
+  color: #13a183;
+  font-size: 20px;
+  padding-left: 10px;
+}
+.todo-input:focus {
+  outline: 0;
+}
+.todo-button {
+  width: 15%;
+  height: 45px;
+  background-color: orange;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 0;
+  cursor: pointer;
+}
+.form-header {
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.select {
+  width: 800px;
+  margin-top: 5px;
+}
+select {
+  font-family: "Raleway", sans-serif;
+  width: 800px;
+  border: 0;
+  height: 45px;
+  font-size: 20px;
+  color: #13a183;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+select:focus {
+  outline: 0;
+}
+
+.todo-container {
+  width: 500px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.action-btns {
+  display: flex;
+  width: 30%;
+  justify-content: center;
+}
+.complete-btn {
+  background-color: orange;
+  border: none;
+  width: 50%;
+  height: 50px;
+}
+.trash-btn {
+  background-color: rgb(216, 76, 76);
+  border: none;
+  width: 50%;
+  height: 50px;
+}
+.todo {
+  list-style-type: none;
+  width: 70%;
+  text-align: start;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #13a183;
+  padding-left: 15px;
+}
+.hidden {
+  display: none;
 }
