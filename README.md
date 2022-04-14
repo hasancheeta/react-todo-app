@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+#Cheeta ToDo Tasker
+This react app intends to provide a todo tasks facility. It is just a practice app. Deployed on netlify:
+https://cheeta-tasker.netlify.app/
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
